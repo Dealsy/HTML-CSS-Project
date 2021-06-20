@@ -48,9 +48,15 @@ and (-webkit-min-device-pixel-ratio: 2) {
     width: 90%;
     font-size: 24px;
    
-}
+    }
 
 }
+
+.emailButton{
+    color: #fff;
+    font-weight: bolder;
+}
+
 
 
 /* Sets CSS for footer on each page */
