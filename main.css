@@ -1,3 +1,6 @@
+/* Document CSS 
+    ============ */
+
 html, body {
     height: 100%;
     margin: 0;
@@ -6,6 +9,9 @@ html, body {
 #wrapper {
     min-height: 100%; 
 }
+
+/* Content CSS 
+    ========== */
 
 /* Sets CSS for headings on each page */
 .page_Headings{
@@ -30,3 +36,22 @@ html, body {
     color: white;
     text-align: center;
 }
+
+/*  Heading CSS classes  
+    =================== */
+
+.heading_styleC{
+    color: #E85A30;
+    font-weight: bolder;
+}
+
+.heading_styleM{
+   color: #F4A109;
+   font-weight: bolder;
+}
+
+.heading_styleS{
+    color: #0E92D1;
+    font-weight: bolder;
+}
+    
