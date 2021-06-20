@@ -13,18 +13,38 @@ html, body {
 /* Content CSS 
     ========== */
 
+
 /* Sets CSS for headings on each page */
 .page_Headings{
-    margin: auto;
+    margin: 80px;
     width: 500px;
     margin-top: 100px;
 }
 
 /* Sets CSS for main content for each page */
 .page_Content{
-    margin: auto;
-    width: 70%;
+    margin: 80px;
+    width: 40%;
 }
+
+
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 680px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .page_Headings{
+      margin: 80px;
+      width: 200px;
+      margin-top: 70px;
+  }
+
+  .page_Content{
+    margin: 80px;
+    width: 90%;
+}
+
+}
+
 
 /* Sets CSS for footer on each page */
 .page_footer{
@@ -35,6 +55,27 @@ html, body {
     background-color: #212529;
     color: white;
     text-align: center;
+}
+
+.Home_Background{
+    background-image: url("./Images/Ducati\ \(Medium\).jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.About_background{
+    background-image: url("./Images/R1\ \(Medium\).jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact_background{
+    background-image: url("./Images/BMW\ \(Medium\).jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /*  Heading CSS classes  
@@ -52,6 +93,11 @@ html, body {
 
 .heading_styleS{
     color: #0E92D1;
+    font-weight: bolder;
+}
+
+.heading_styleR{
+    color: rgb(2, 140, 61);
     font-weight: bolder;
 }
     
