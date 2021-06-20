@@ -25,6 +25,11 @@ html, body {
 .page_Content{
     margin: 80px;
     width: 40%;
+    box-shadow: 2px 2px black;
+    border: solid white;
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 10px;
 }
 
 
@@ -41,6 +46,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
   .page_Content{
     margin: 80px;
     width: 90%;
+    font-size: 24px;
+   
 }
 
 }
