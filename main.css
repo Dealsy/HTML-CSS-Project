@@ -6,6 +6,8 @@ html, body {
     margin: 0;
 }
 
+  
+
 #wrapper {
     min-height: 100%; 
 }
@@ -19,17 +21,34 @@ html, body {
     margin: 80px;
     width: 500px;
     margin-top: 100px;
+    background-color: #212529;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 2px 2px black;
 }
+
+.About_heading{
+    color: #F2A006;
+}
+.contact_Heading{
+    color:#F2DF2C
+}
+
+
 
 /* Sets CSS for main content for each page */
 .page_Content{
     margin: 80px;
     width: 40%;
     box-shadow: 2px 2px black;
-    border: solid white;
     border-radius: 8px;
-    background-color: #fff;
-    padding: 10px;
+    background-color: #212529;
+    color: #fff;
+    padding: 15px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    justify-content: center;
 }
 
 
@@ -55,6 +74,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
 .emailButton{
     color: #fff;
     font-weight: bolder;
+}
+
+.footer_Button{
+    margin-top: 10px;
 }
 
 
