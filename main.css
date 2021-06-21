@@ -26,6 +26,11 @@
     justify-content: center;
 }
 
+.crash{
+    width: 400px;
+    float: right;
+}
+
 
 .emailButton{
     color: #fff;
@@ -47,6 +52,8 @@
     background-color: #212529;
     color: white;
     text-align: center;
+    height: 100px;
+    padding: 10px;
 }
 
 .Home_Background{
