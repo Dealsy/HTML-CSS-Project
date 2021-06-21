@@ -1,12 +1,5 @@
 /* Document CSS 
-    ============ */
-
-html, body {
-    height: 100%;
-    margin: 0;
-}
-
-  
+    ============ */  
 
 #wrapper {
     min-height: 100%; 
@@ -16,24 +9,6 @@ html, body {
     ========== */
 
 
-/* Sets CSS for headings on each page */
-.page_Headings{
-    margin: 80px;
-    width: 500px;
-    margin-top: 100px;
-    background-color: #212529;
-    color: #fff;
-    padding: 10px;
-    border-radius: 8px;
-    box-shadow: 2px 2px black;
-}
-
-.About_heading{
-    color: #F2A006;
-}
-.contact_Heading{
-    color:#F2DF2C
-}
 
 
 
@@ -51,25 +26,6 @@ html, body {
     justify-content: center;
 }
 
-
-@media only screen 
-and (min-device-width: 320px) 
-and (max-device-width: 680px)
-and (-webkit-min-device-pixel-ratio: 2) {
-  .page_Headings{
-      margin: 80px;
-      width: 200px;
-      margin-top: 70px;
-  }
-
-  .page_Content{
-    margin: 80px;
-    width: 90%;
-    font-size: 24px;
-   
-    }
-
-}
 
 .emailButton{
     color: #fff;
@@ -98,24 +54,47 @@ and (-webkit-min-device-pixel-ratio: 2) {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .About_background{
-    background-image: url("./Images/R1\ \(Medium\).jpg");
+    background-image: url("./Images/saftey.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .contact_background{
-    background-image: url("./Images/BMW\ \(Medium\).jpg");
+    background-image: url("./Images/Group.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 /*  Heading CSS classes  
     =================== */
+
+/* Sets CSS for headings on each page */
+.page_Headings{
+    margin: 80px;
+    width: 500px;
+    margin-top: 100px;
+    background-color: #212529;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 2px 2px black;
+}
+
+.About_heading{
+    color: #F2A006;
+}
+.contact_Heading{
+    color:#F2DF2C
+}
+
 
 .heading_styleC{
     color: #E85A30;
@@ -136,4 +115,27 @@ and (-webkit-min-device-pixel-ratio: 2) {
     color: rgb(2, 140, 61);
     font-weight: bolder;
 }
-    
+
+
+
+/* Media Queries */
+
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 680px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .page_Headings{
+      margin: 80px;
+      width: 200px;
+      margin-top: 70px;
+  }
+
+  .page_Content{
+    margin: 80px;
+    width: 70%;
+    font-size: 24px;
+   
+    }
+
+}
+
