@@ -8,10 +8,6 @@
 /* Content CSS 
     ========== */
 
-
-
-
-
 /* Sets CSS for main content for each page */
 .page_Content{
     margin: 80px;
@@ -26,6 +22,20 @@
     justify-content: center;
 }
 
+.page_Content_Tips{
+    margin: 80px;
+    width: 90%;
+    box-shadow: 2px 2px black;
+    border-radius: 8px;
+    background-color: #212529;
+    color: #fff;
+    padding: 15px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    opacity: 0.8;
+}
+
 .crash{
     width: 400px;
     float: right;
@@ -37,24 +47,48 @@
     font-weight: bolder;
 }
 
-.footer_Button{
-    margin-top: 10px;
+
+.space{
+    margin: 10px;
+}
+.Tips_list{
+    padding: 40px;
+}
+
+.Tips_content{
+    padding: 80px;
+}
+
+.Next_Button{
+    position:absolute;
+    bottom: 3%;
+    right:20%;
+    border-radius: 8px;
+    background-color: #0E92D1;
+    color: #fff;
+    font-weight: bolder;
 }
 
 
-
-/* Sets CSS for footer on each page */
-.page_footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #212529;
-    color: white;
-    text-align: center;
-    height: 100px;
-    padding: 10px;
+.Next_Button:hover {
+    background-color: #267496;
 }
+
+.Prev_Button{
+    position:absolute;
+    bottom: 3%;
+    right:20%;
+    border-radius: 8px;
+    background-color: #0E92D1;
+    color: #fff;
+    font-weight: bolder;
+}
+
+
+.Prev_Button:hover {
+    background-color: #267496;
+}
+
 
 .Home_Background{
     background-image: url("./Images/Ducati\ \(Medium\).jpg");
@@ -79,6 +113,34 @@
     background-size: cover;
     background-attachment: fixed;
 }
+
+.Tips_Background{
+    background-image: url("./Images/awareness.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/* Sets CSS for footer on each page */
+.page_footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    height: 100px;
+    padding: 10px;
+}
+
+
+.footer_Button{
+    margin-top: 10px;
+}
+
 
 /*  Heading CSS classes  
     =================== */
@@ -121,6 +183,19 @@
 .heading_styleR{
     color: rgb(2, 140, 61);
     font-weight: bolder;
+}
+
+.heading_styleT{
+    color: #FFCA2C;
+    font-weight: bolder;
+}
+
+.tip_headings{
+    margin: auto;
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #F4A109;
 }
 
 
